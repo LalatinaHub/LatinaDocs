@@ -14,3 +14,12 @@ ignoreErrors = ["additional-script-loading-error"]
 [[params.socialIcons]]
 name = "github"
 url = "https://github.com/LalatinaHub"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[module]
+  [module.params]
+    enable = true
