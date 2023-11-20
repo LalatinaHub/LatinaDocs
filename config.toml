@@ -4,7 +4,7 @@ languageCode = 'en-us'
 theme = "hugo-blog-awesome"
 
 enableEmoji = true
-ignoreErrors = ["additional-script-loading-error"] # ignore error of loading additional scripts.
+ignoreErrors = ["additional-script-loading-error"]
 
 [params.author]
   avatar = "hero.png"
