@@ -1,16 +1,13 @@
-/coverage
-/src/client/shared.ts
-/src/node/shared.ts
-*.log
-*.tgz
-.DS_Store
-.idea
-.temp
-.vite_opt_cache
-.vscode
-dist
-cache
-examples-temp
-node_modules
-pnpm-global
-TODOs.md
+# Generated files by hugo
+/public/
+/resources/_gen/
+/assets/jsconfig.json
+hugo_stats.json
+
+# Executable may be added to repository
+hugo.exe
+hugo.darwin
+hugo.linux
+
+# Temporary lock file while building
+/.hugo_build.lock

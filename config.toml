@@ -1,0 +1,16 @@
+title = "Foolish"
+
+languageCode = 'en-us'
+theme = "hugo-blog-awesome"
+
+enableEmoji = true
+ignoreErrors = ["additional-script-loading-error"] # ignore error of loading additional scripts.
+
+[params.author]
+  avatar = "hero.png"
+  intro = "Foolish"
+  description = "Layanan VPN premium berdayakan sing-box"
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/LalatinaHub"
