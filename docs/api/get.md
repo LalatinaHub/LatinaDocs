@@ -2,10 +2,10 @@
 export default {
     data() {
         return {
-            vpnList: ["vmess", "vless", "trojan", "ssr"],
+            vpnList: ["vmess", "vless", "trojan", "ss"],
             formatList: ["sfa", "clash", "surfboard", "raw"],
             regionList: ["Asia", "Americas", "Europe", "Africa"],
-            networkList: ["ws", "grpc", "tcp"]
+            networkList: ["ws", "grpc", "tcp", "hu"]
         }
     }
 }

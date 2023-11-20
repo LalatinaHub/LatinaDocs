@@ -10,9 +10,6 @@ hero:
     src: /hero.png
     alt: Darkness Face
   actions:
-    - theme: brand
-      text: Baca Dokumentasi
-      link: /guide/
     - theme: alt
       text: Dapatkan API
       link: /api/

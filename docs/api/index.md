@@ -1,6 +1,6 @@
 # API
 
-URL khusus yang dipersiapkan untuk berinteraksi dengan server
+Endpoint khusus yang disediakan untuk berinteraksi dengan server
 
 ## Pengenalan
 

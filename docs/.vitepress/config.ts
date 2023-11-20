@@ -15,58 +15,8 @@ export default defineConfig({
           },
         ],
       },
-      {
-        text: "Our Team",
-        link: "/team",
-      },
     ],
     sidebar: [
-      {
-        text: "Panduan",
-        collapsed: true,
-        items: [
-          { text: "Pengenalan", link: "/guide/" },
-          {
-            text: "Mobile",
-            items: [
-              {
-                text: "Dasar",
-                link: "/guide/mobile/",
-              },
-              {
-                text: "Aplikasi Populer",
-                link: "/guide/mobile/apps",
-              },
-              {
-                text: "How to",
-                items: [
-                  {
-                    text: "Scan Bug",
-                    link: "/guide/mobile/how/scan_bug",
-                  },
-                  {
-                    text: "BFM",
-                    items: [
-                      {
-                        text: "Persiapan",
-                        link: "/guide/mobile/how/bfm/prepare",
-                      },
-                      {
-                        text: "Clash",
-                        link: "/guide/mobile/how/bfm/clash",
-                      },
-                    ],
-                  },
-                ],
-              },
-            ],
-          },
-          {
-            text: "Desktop",
-            link: "/guide/desktop/",
-          },
-        ],
-      },
       {
         text: "API",
         collapsed: true,
@@ -74,10 +24,6 @@ export default defineConfig({
           {
             text: "Pengenalan",
             link: "/api/",
-          },
-          {
-            text: "Dasar",
-            link: "/api/basic",
           },
           {
             text: "Endpoint",
