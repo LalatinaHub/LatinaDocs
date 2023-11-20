@@ -31,7 +31,7 @@ jobs:
         uses: MariachiBear/get-repo-name-action@v1.1.0
       - name: Build with VitePress
         env:
-          BASE_PATH: ${{ steps.repo-name.outputs.repository-name }}
+          BASE_PATH: /${{ steps.repo-name.outputs.repository-name }}/
         run: |
           npm run build
           touch docs/.vitepress/dist/.nojekyll
