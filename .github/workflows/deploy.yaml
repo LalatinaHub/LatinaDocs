@@ -2,7 +2,7 @@ name: Deploy site to Pages
 
 on:
   push:
-    branches: [main]
+    branches: [master]
   workflow_dispatch:
 
 permissions:
@@ -26,7 +26,12 @@ jobs:
         uses: actions/configure-pages@v3
       - name: Install dependencies
         run: npm install
+      - name: Get repository name
+        id: repo-name
+        uses: MariachiBear/get-repo-name-action@v1.1.0
       - name: Build with VitePress
+        env:
+          BASE_PATH: ${{ steps.repo-name.outputs.repository-name }}
         run: |
           npm run build
           touch docs/.vitepress/dist/.nojekyll

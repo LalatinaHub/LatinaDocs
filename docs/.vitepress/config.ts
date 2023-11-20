@@ -3,6 +3,7 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
   title: "LatinaDocs",
   description: "Dokumentasi untuk LalatinaHub",
+  base: process.env.BASE_PATH || "/",
   themeConfig: {
     socialLinks: [{ icon: "github", link: "https://github.com/LalatinaHub" }],
     nav: [
