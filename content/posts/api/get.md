@@ -9,6 +9,7 @@ draft = false
 |   Key   |             Penjelasan              | Multiple |       Contoh        |
 | :-----: | :---------------------------------: | :------: | :-----------------: |
 |  pass   |          Masukkan password          |    No    |     &pass=fool      |
+|  free   |        Pilih VPN gratis saja        |    No    |       &free=1       |
 |   vpn   |   Pilih VPN bersadarkan protokol    |   Yes    |     &vpn=vmess      |
 | format  |            Pilih format             |    No    |    &format=clash    |
 | region  |    Pilih VPN berdasarkan wilayah    |   Yes    |    &region=Asia     |
